@@ -6,14 +6,17 @@ readme = "README.md"
 authors = [
     { name = "himanshukr72", email = "himanshukr72830@gmail.com" }
 ]
-requires-python = ">=3.14"
+requires-python = ">=3.12,<3.13"
 dependencies = [
     "emoji>=2.15.0",
+    "gensim>=4.4.0",
     "ipykernel>=7.3.0",
     "matplotlib>=3.11.1",
+    "nbformat>=5.11.1",
     "nltk>=3.10.3",
     "numpy>=2.5.3",
     "pandas>=3.0.5",
+    "plotly>=7.1.0",
     "pyspellchecker>=0.9.0",
     "requests>=2.34.2",
     "scikit-learn>=1.9.1",
