@@ -532,6 +532,7 @@ dependencies = [
     { name = "seaborn" },
     { name = "spellchecker" },
     { name = "tqdm" },
+    { name = "wget" },
 ]
 
 [package.metadata]
@@ -551,6 +552,7 @@ requires-dist = [
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "spellchecker", specifier = ">=0.4" },
     { name = "tqdm", specifier = ">=4.70.0" },
+    { name = "wget", specifier = ">=3.2" },
 ]
 
 [[package]]
@@ -1078,6 +1080,12 @@ sdist = { url = "https://files.pythonhosted.org/packages/36/57/ed58088fafdf4c55a
 wheels = [
     { url = "https://files.pythonhosted.org/packages/c4/0e/57f6bb3024a597b2e8ec4aee710ffe62ddc95af2e2bb1ee7a7abdc22c68c/wcwidth-0.8.3-py3-none-any.whl", hash = "sha256:d5b73dba6158a595ec9370350e7f2637bcac8d6c5e4fde34f30fcffb6103a5e4", size = 331669, upload-time = "2026-08-28T18:10:04.909Z" },
 ]
+
+[[package]]
+name = "wget"
+version = "3.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/47/6a/62e288da7bcda82b935ff0c6cfe542970f04e29c756b0e147251b2fb251f/wget-3.2.zip", hash = "sha256:35e630eca2aa50ce998b9b1a127bb26b30dfee573702782aa982f875e3f16061", size = 10857, upload-time = "2015-10-22T15:26:37.51Z" }
 
 [[package]]
 name = "wrapt"
