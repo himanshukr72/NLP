@@ -21,6 +21,7 @@ dependencies = [
     "requests>=2.34.2",
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
+    "spacy>=3.8.16",
     "spellchecker>=0.4",
     "tqdm>=4.70.0",
     "wget>=3.2",
