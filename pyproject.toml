@@ -25,6 +25,7 @@ dependencies = [
     "spellchecker>=0.4",
     "tqdm>=4.70.0",
     "wget>=3.2",
+    "xgboost>=3.4.1",
 ]
 
 [project.scripts]
