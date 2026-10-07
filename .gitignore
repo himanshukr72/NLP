@@ -10,4 +10,5 @@ wheels/
 .venv
 data
 
-
+# Model/data artifacts
+*.pkl
